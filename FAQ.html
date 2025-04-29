@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+ @font-face {
+                font-family: "del";
+                src: url(MPLUSRounded1c-Light.ttf);
+            }
+* {
+    /* box-sizing: border-box; */
+    font-family: "del";
+}
+
+
+
+body {
+    color: #333;
+    background-color: #CACE90;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0db;
+    padding: 5px 5px;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: "del";
+    font-weight: lighter;
+    /* overflow-x: hidden !important; */
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    /* padding-left: 100px;
+    padding-right: 90px; */
+    font-family: "del";
+    /* overflow: hidden; */
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* padding-left: 800px; */
+  }
+
+
+nav ul li {
+    margin-left: 10px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li:hover {
+    border-bottom: 1px solid black;
+    
+    -webkit-transition: 1s;}
+   
+
+        .main-content {
+            padding: 80px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main-content h1 {
+            font-size: 48px;
+            margin-bottom: 60px;
+            color: #333;
+            text-align: left;
+            font-weight: normal;
+        }
+
+        .faq-section {
+            margin-bottom: 60px;
+        }
+
+        .faq-section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: normal;
+        }
+
+        .faq-section p {
+            font-size: 16px;
+            color: #555;
+            border-top: #555 solid;
+            margin: 10px 50px 29px 50px;
+        }
+        .faq-item {
+             margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #CACE90;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #CACE90;
+        }
+
+        @media (max-width: 768px) {
+            
+            h1 { 
+                font-size: 2px;
+                padding: 2px 2px;
+
+            }
+            Header {
+                padding: 5px 5px;
+            }
+            header nav ul {
+                margin-top: 5px;
+                flex-direction: row;
+                padding: 5px 5px;
+            }
+            header nav ul li {
+                margin-left: 0;
+                margin-top: 2px;
+            }
+             .main-content {
+                padding: 10px 10px;
+            }
+             .main-content h1{
+                font-size: 16px;
+                padding: 1px 1px;
+                
+             }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <div class="logo"> <a href="project.html"> L.chen</a></div>
+        <nav>
+            <ul>
+                <li><a href="AboutUS.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav> -->
+        <nav>
+          <!-- <div class="logo"> L. Chen </div> -->
+          <a href="project.html" class="logo">L. Chen </a>
+          <ul>
+              <li><a href="AboutUS.html">About</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="FAQ.html">FAQ </a></li>
+              <li><a href="contactus.html">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+        <h1>FAQ</h1>
+        <section class="faq-section">
+            <div class = "faq-item">
+                <h2>Inventory Status</h2>
+                <p>Our center provides a comprehensive range of Chinese medicine supplies, including herbs, remedies, holistic tools, and more. We are committed to maintaining a well-stocked inventory to meet your holistic healthcare needs efficiently and effectively.</p>
+            <!-- <hr/> -->
+            </div>
+            <div class = "faq-item">
+                <h2>Delivery Services</h2>
+                <p>We offer reliable delivery services for your convenience. Orders are processed promptly, and we ensure that your Chinese medicine supplies reach you in a timely manner. Contact us for more details on delivery options and schedules.</p>
+                <!-- <hr/> -->
+              </div>
+             <div class = "faq-item">
+                <h2>Refund and Exchange Policy</h2>
+                <p>Our policy allows you to request a refund or exchange within a specified timeframe. We aim to provide a hassle-free experience for our clients, ensuring satisfaction with every purchase.</p>
+                <!-- <hr/> -->
+              </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 L Chen. All rights reserved.</p>
+    </footer>
+</body>
+</html>

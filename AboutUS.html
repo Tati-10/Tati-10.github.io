@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Approach - L. Chen</title>
+  <link rel="stylesheet" href="styleaboutus.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <style> 
+    @font-face {
+        font-family: "del";
+        src: url(MPLUSRounded1c-Light.ttf);
+    }
+    .meet-experts-section {
+            padding: 80px 40px;
+            text-align: center;
+            background-color: #CACE90;
+           
+        }
+
+        /* .meet-experts-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+            font-weight: normal;
+        } */
+
+        .meet-experts-section p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .expert-grid {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 40px;
+            flex-wrap: nowrap; /* changed to nowrap */
+            
+        }
+
+        .expert-card {
+            width: 300px; /* increased width of expert card */
+            text-align: center;
+            display: flex; 
+            flex-direction: column; 
+            border-right: #555 solid;
+            width: 70%;
+            align-items: center;
+        }
+
+        .expert-card img {
+            width: 50%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        /* .expert-card h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: normal;
+        } */
+
+        .expert-card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+       @media (max-width: 768px) {
+            .meet-experts-section {
+                padding: 60px 20px;
+            }
+            .meet-experts-section h2{
+               font-size: 30px;
+            }
+            .expert-grid {
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap; /* added this back in */
+            }
+            .expert-card{
+                width: 90%;
+                margin-bottom: 30px;
+            }
+        }
+    
+</style>
+</head>
+<body>
+  <header class="navbar">
+    <!-- <div aclass="logo">L. Chen</div> -->
+    <a href="project.html" class="logo">L. Chen </a>
+    <nav>
+      <ul>
+        <li><a href="AboutUS.html">About Us</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="approach-section">
+    <div class="content-wrapper">
+      <div class="text-section">
+        <h1>Our Approach</h1>
+        <p>
+          Specializing in Chinese dietary therapy, L. Chen provides expert advice 
+          on nutrition tailored to individual needs. Clients learn about food as 
+          medicine, combining traditional wisdom with modern coaching for holistic 
+          health and vitality.
+        </p>
+      </div>
+      <div class="image-section">
+        <img src="ourServices-img.avif" alt="Tea Table and Plants">
+      </div>
+    </div>
+  </section>
+  <section class="meet-experts-section">
+    <h2>Meet Our Experts</h2>
+    <p>Our team consists of dedicated and experienced professionals who are passionate about delivering exceptional service and expertise. With a focus on customer satisfaction, our experts are here to assist you with all your dietary therapy needs.</p>
+    <div class="expert-grid">
+        <div class="expert-card">
+            <img src="L.chen.jpeg" alt="L. Chen">
+            <h3>L. Chen</h3>
+            <p>Nutrition Specialist</p>
+        </div>
+        <div class="expert-card">
+            <img src="Eva Wong.avif" alt="Eva Wong">
+            <h3>Eva Wong</h3>
+            <p>Wellness Coach</p>
+        </div>
+        <div class="expert-card">
+            <img src="Dr.Zhang.avif" alt="Dr. Zhang">
+            <h3>Dr. Zhang</h3>
+            <p>Traditional Medicine Practitioner</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>

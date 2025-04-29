@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discover Wellness - L. Chen</title>
+  <style>
+    /* Reset and basic styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "del";
+    }
+
+    body {
+      font-family: "del";
+      background-color: #e8e8c9;
+      color: #404030;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #f1f1d8;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #404030;
+      font-size: 1rem;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 4px;
+    }
+
+    .navbar a:hover,
+    .navbar a:focus,
+    .navbar a.active {
+      border-bottom: 2px solid #404030;
+    }
+
+    /* Wellness Section */
+    .wellness-section {
+      background-color: #c5c78b;
+      padding: 60px 40px;
+    }
+
+    .intro {
+      max-width: 768px;
+      margin: 0 auto 60px auto;
+      text-align: left;
+    }
+
+    .intro h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    .intro p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      
+    }
+
+    .product {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .product h2 {
+      font-size: 2rem;
+      margin: 20px 0 10px;
+    }
+
+    .product p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .products-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .intro h1 {
+        font-size: 3rem;
+        text-align: center;
+      }
+      
+      .intro p {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="project.html" class="logo">L. Chen </a>
+    <nav>
+      <ul>
+        <li><a href="AboutUS.html">About Us</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="wellness-section">
+    <div class="intro">
+      <h1>Discover Wellness</h1>
+      <p>
+        Explore a diverse range of high-quality Chinese medicine products at L. Chen. Our
+        products are carefully selected to meet various health needs, whether you are seeking
+        traditional remedies or modern wellness solutions.
+      </p>
+    </div>
+
+    <div class="products-grid">
+      <div class="product">
+        <img src="services1.avif" alt="Herbal Soup">
+        <h2>Therapeutic Treatments</h2>
+        <p>
+          Find tailored therapeutic treatments at L. Chen, from acupuncture to cupping.
+          Our skilled practitioners ensure personalized care to promote balance and
+          alleviate various health conditions.
+        </p>
+      </div>
+
+      <div class="product">
+        <img src="services2.jpeg" alt="Herbal Remedies">
+        <h2>Herbal Remedies</h2>
+        <p>
+          Delve into our selection of herbal remedies, featuring a wide range of herbs
+          and natural ingredients to address different health concerns. From teas to
+          supplements, we offer holistic solutions for your well-being.
+        </p>
+      </div>
+      <div class="product">
+        <img src="khinkali.avif" alt="Herbal Remedies">
+        <h2>Wellness Tools</h2>
+        <p>
+            Explore our collection of wellness tools, including gua sha tools, acupressure mats, and herbal compresses. These tools are designed to enhance your self-care practices and support your holistic wellness journey.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
